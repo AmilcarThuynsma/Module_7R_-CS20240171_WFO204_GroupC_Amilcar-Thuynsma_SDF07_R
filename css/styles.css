@@ -12,7 +12,7 @@
 
     --clr-ligt:#fff;
     --clr-dark:#303030;
-    --clr-accent:rgb(247, 139, 247);
+    --clr-accent:#ac16d7;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -105,6 +105,10 @@ nav{ display: none;}
     box-shadow: var(--bs);
 }
 
+.section__subtitle--intro {
+    display: inline-block;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -133,4 +137,15 @@ nav{ display: none;}
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+}
+
+/* My Services */
+
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-blend-mode:difference;
+    color: var(--clr-ligt);
+
 }
